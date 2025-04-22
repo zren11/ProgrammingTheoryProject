@@ -10,7 +10,7 @@ public class SphereAction : ObjectAction
         }
         else
         {
-            transform.position += new Vector3(0, 0, -0.06f);
+            transform.position += new Vector3(0, 0, -0.08f);
         }
     }
 }
