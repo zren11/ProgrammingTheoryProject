@@ -1,7 +1,9 @@
 using UnityEngine;
 
+// INHERITANCE
 public class CubeAction : ObjectAction
 {
+    // POLYMORPHISM
     protected override void MoveObject()
     {
         if (transform.position.z < 0)

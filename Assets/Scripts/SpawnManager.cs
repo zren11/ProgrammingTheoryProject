@@ -3,7 +3,15 @@ using UnityEngine;
 public class SpawnManager : MonoBehaviour
 {
     public GameObject[] objectPrefabs;
-    public float xRange = 3;
+
+    // ENCAPSULATION
+    [SerializeField]
+    private float xRange = 3;
+    public float XRange
+    {
+        get => xRange;
+        set => xRange = value;
+    }
     public float zPosition = 3;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()

@@ -1,7 +1,10 @@
 using UnityEngine;
 
+// INHERITANCE
 public class SphereAction : ObjectAction
 {
+
+    // POLYMORPHISM
     protected override void MoveObject()
     {
         if (transform.position.z < 0)

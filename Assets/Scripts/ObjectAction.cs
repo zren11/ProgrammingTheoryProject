@@ -23,6 +23,7 @@ public class ObjectAction : MonoBehaviour
         }
     }
 
+    // ABSTRACTION
     protected virtual void MoveObject()
     {
         transform.position += new Vector3(0, 0, -0.01f);
